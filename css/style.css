@@ -1,0 +1,14 @@
+@import 'reset.css';
+@import 'normalize.css';
+@import 'sections/header.css';
+@import 'sections/about.css';
+@import 'sections/works.css';
+@import '../fonts/stylesheet.css';
+@import 'media.css';
+
+
+.container{
+    padding: 0 15px;
+    max-width: 990px;
+    margin: 0 auto;
+}

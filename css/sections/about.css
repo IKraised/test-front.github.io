@@ -1,0 +1,151 @@
+.about{
+    height: 1267px;
+    padding-top: 300px;
+    margin-bottom: 79px;
+    position: relative; 
+    overflow: hidden;
+}
+.about-box{
+    position: absolute;
+    top: 0;
+    right: -100px;
+    width: 1789px;
+    height: 1066px;
+    background: linear-gradient(0deg, #F6F6F6 0%, #FFFFFF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-box:after{
+    content: url('../../images/Skittles.png');
+    position: absolute;
+    bottom: -38px;
+    left: -217px;
+    z-index: 34;
+}
+.about-box:before{
+    content: url('../../images/Diskette.png');
+    position: absolute;
+    bottom: -202px;
+    right: 90px;
+    z-index: 34;
+}
+.about__text_top{
+    max-width: 892px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.about__text_top::before{
+    content: '<о себе>';
+    font-size: 18px;
+    position: absolute;
+    top: -98px;
+    left: -76px;
+    font-weight: bold;
+}
+.about__text_middle{
+    max-width: 565px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.about__text_bottom{
+    max-width: 540px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom: 8px; 
+}
+.about__text_bottom span{
+    position: relative;
+    padding-left: 17px;
+}
+.about__text_bottom span img{
+    position: absolute;
+    top: 7px;
+    left: 0px;
+}
+.about__text_bottom:after{
+    content: '</о себе>';
+    font-size: 18px;
+    position: absolute;
+    bottom: -498px;
+    left: -82px;
+    font-weight: bold;
+}
+.about__text{
+    position: relative;
+    margin-left: 83px;
+}
+.about__text:after{
+    content: '<p>';
+    font-size: 18px;
+    position: absolute;
+    bottom: -43px;
+    left: 0px;
+    font-weight: bold;
+}
+.about__text:before{
+    content: '<p>';
+    font-size: 18px;
+    position: absolute;
+    font-weight: bold;
+    top: -45px;
+    left: 0px
+}
+.about-skill{
+    margin-left: 83px;
+    padding-top: 128px;
+    position: relative;
+}
+.about-skill::after{
+    content: '<навыки>';
+    font-size: 18px;
+    position: absolute;
+    bottom: -46px;
+    left: 0px;
+    font-weight: bold;
+}
+.about-skill:before{
+    content: '</навыки>';
+    font-size: 18px;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    font-weight: bold;
+}
+.about-skill__item{
+    max-width: 883px;
+    background: #ffffff;
+    height: 40px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    transition: all 1s ease-in;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.about-skill__item_name{
+    z-index: 3;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    padding-left: 16px;
+}
+.about-skill__item_bar{
+    width: 0%;
+    position: absolute;
+    height: 40px;
+    max-width: 883px;
+    background-color: #333333;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 1s ease-in;
+}

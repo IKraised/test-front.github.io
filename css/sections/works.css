@@ -1,0 +1,129 @@
+.works{
+    background: #ffffff;
+    margin-bottom: 100px    ;
+}
+.works__navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.works__navigation:after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #E8E8E8;
+}
+.works__navigation_btn{
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 40px;
+    color: #B4B4B4;
+    cursor: pointer;
+}
+.active-btn{
+    font-weight: bold;
+    color: #EB5757;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+.active-btn::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 3px;
+    width: 100%;
+    background-color: #EB5757;
+    left: 0;
+    z-index: 90;
+}
+.works__navigation_btn:first-child{
+    margin-left: 0;
+}
+.works-box{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* margin: 0px -15px; */
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+}
+.works__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 308px;
+}
+.works__card_title{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+.works__card_text{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #B4B4B4;
+}
+.works__card_img img{
+    width: 308px;
+    height: 281px;
+}
+.slick-arrow{
+    position: absolute;
+    border: none;
+    background-color: none;
+    width: 0;
+    font-size: 19px;
+    top: 128px;
+    font-size: 0;
+}
+.slick-next{
+    right: 0;
+}
+.slick-prev{
+    background: url('../../images/prev.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 90;
+    width: 24px;
+    height: 24px;
+    left: -40px;
+}
+.slick-next{
+    background: url('../../images/next.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 90;
+    width: 24px;
+    height: 24px;
+    right: -40px;
+}
+.slick-slide {
+    padding: 0 15px;
+}
+.hideCategory{
+    display: none;
+}
+/* media */
+@media (max-width: 1270px ) {
+    .works__navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .works__navigation_btn{
+        margin: 17.5px 0;
+    }
+}

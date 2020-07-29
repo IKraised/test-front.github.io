@@ -1,0 +1,108 @@
+@media (max-width: 1025px ) {
+    .works-box{
+        overflow: hidden;
+    }
+}
+@media (max-width: 790px) {
+    .about-box::before{
+        display: none;
+    }
+    .header__prev_title{
+        font-size: 48px;
+        line-height: 56px;
+        padding-bottom: 0;
+        margin-bottom: 70px;
+        margin-top: 0;
+        padding-top: 80px;
+        width: 288px;
+    }
+    .header__prev_item{
+        position: relative;
+    }
+    .header__prev_item-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        left: 70px;
+        max-width: 600px;
+    }
+    .header__prev_title:after{
+        bottom: -121px;
+        left: 22px;
+    }
+    .header__prev_title:before{
+        top: 10px;
+        left: 22px;
+    }
+    .header__nav_item{
+        display: none;
+    }
+    .header__nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header__prev_item{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .header__prev_item-text{
+        font-size: 24px;
+        width: 101px;
+    }
+    .header__image{
+        z-index: 33;
+        margin-top: 170px;
+    }
+    .burger{
+        font-size: 48px;
+    }
+    .burger__link{
+        padding: 0 48px;
+    }
+    .about-box:before{
+        display: none;
+    }
+    .about{
+        overflow: hidden;
+        background: rgb(246,246,246);
+        background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 100%);
+    }
+    .about-box{
+        display: none;
+    }
+    .about__text{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .about__text_top::before{
+        top: -98px;
+        left: 0px;
+
+    }
+    .about__text_bottom:after{
+        left: 0px;
+    }
+    .about-skill{
+        margin-left: 0;
+    }
+    .about-skill__item{
+        width: 390px;
+    }
+    .about-skill__item_bar{
+        width: 280px;
+    }
+}
+@media (max-width: 500px) {
+    .about{
+        height: 1330px;
+    }
+    .about-skill__item{
+        width: 290px;
+    }
+    .about-skill__item_bar{
+        width: 280px;
+    }
+}
